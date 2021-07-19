@@ -1,26 +1,29 @@
-Name:
-Date:
+Name:layla
+Date:7/19/21
 
 1 - What is the structure of a for loop?
-
+A: the a header and the body.
 
 2 - When should I use a for loop?
-
+A:  when we have a large task to make things faster.
 
 3 - Why are loops useful to us?
-
+A: It generally this makes things easier cuz it cut back on time like a shortcut.
 
 4 - What are the different variations of the range() function?
-
+ number 1 -100
 
 5 - What are the two methods of creating a for loop?
-
+A: for k in range(1,6):
+    print('layla')
 
 6 - What is the iterator variable? Does it have to be named i?
-
+A: it can be what ever you want with in reason
 
 7 - Can you loop through a string?
-
+A: yes
 
 8 - What are examples of real life loops that you encounter?
 
+A: for k in range(1,6):
+    print('frogboy')

@@ -1,5 +1,5 @@
-# author:
-# date:
+# author:layla
+# date:7/17/2021
 
 # -------------------- Section 1 -------------------- #
 
@@ -25,6 +25,8 @@ print(
 #
 # Write Code Below #
 
+for k in range(1,6):
+    print('layla')
 
 # 2 - for Loop | Printing i
 #   a. Create a for loop that runs 5 times.
@@ -39,7 +41,9 @@ print(
 #   4
 #
 # Write Code Below #
-
+for p in range(0,5):
+    print(p)
+    print('i')
 
 # 3 - for Loop | Running According to the User
 #   a. Prompt the user for input in the form of an integer. Save it to a variable. This will be used as the argument
@@ -59,7 +63,8 @@ print(
 #   $$$$$$
 #
 # Write Code Below #
-
+for n in range (1,7):
+    print('#' * n)
 
 # ---------- Part 2 | Direct Access ---------- #
 print(
@@ -82,8 +87,10 @@ print(
 #   a
 #
 # Write Code Below #
-
-
+u = 'layla'
+for char in u:
+  print(char)
+print (' ')
 # 2 - for Loop | Printing the User's Name
 #   a. Prompt input from the user in the form of their name. Save to a variable named name.
 #   b. Create a for loop that uses the name of the user as the sequence.
@@ -105,8 +112,13 @@ print(
 #   e
 #
 # Write Code Below #
-
-
+l = 'layla'
+for char in l:
+  print(char)
+print(' ')
+o = 'Jones'
+for char in o:
+  print(char)
 # ---------- Part 3 | range() variations ---------- #
 print(
     '\n\n>> Section 1\n'
@@ -142,8 +154,10 @@ print(
 #   24
 #
 # Write Code Below #
+for Q in range(10,25):
+    print(Q)
 
-
+print(' ')
 # 2 - for Loop | Custom Step
 #   a. Create a for loop that runs from 5 to -5.
 #   b. Print the value of the current iterator variable in the loop.
@@ -163,3 +177,5 @@ print(
 #
 # Write Code Below #
 
+for z in range(5,-5,-1):
+    print(z)
