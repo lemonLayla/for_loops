@@ -22,8 +22,8 @@ print(
 #      $
 #
 # Write Code Below #
-
-
+for k in range(4,-4,-1):
+    print('%' * k)
 # 2 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
 #   a. Create the following pattern using a for loop, and the symbol and size provided by the user.
@@ -44,8 +44,11 @@ print(
 #
 #
 # Write Code Below #
+for m in range(5,-5,-1):
+    print('!' * m )
 
-
+for z in range(-5, 5):
+    print('!' * z)
 # 3 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
 #   a. Create the following pattern using a for loop, and the symbol and size provided by the user.
@@ -66,8 +69,10 @@ print(
 #
 #
 # Write Code Below #
-
-
+for m in range(-6,6,):
+    print('+' * m )
+for z in range(5, -5, -1):
+    print('+' * z)
 # ---------- Part 2 | Mathematical Patterns ---------- #
 print(
     '>> Section 2\n'
