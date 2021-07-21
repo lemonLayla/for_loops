@@ -112,13 +112,9 @@ print (' ')
 #   e
 #
 # Write Code Below #
-l = 'layla'
-for char in l:
-  print(char)
-print(' ')
-o = 'Jones'
-for char in o:
-  print(char)
+name = input('name ')
+for char in name:
+    print(char )
 # ---------- Part 3 | range() variations ---------- #
 print(
     '\n\n>> Section 1\n'

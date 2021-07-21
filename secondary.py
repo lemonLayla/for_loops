@@ -16,14 +16,17 @@ print(
 #   >> symbol... $
 #   >> size... 4
 #
-#   $$$$
-#    $$$
-#     $$
-#      $
+#   $$$$ num space = 0 k=4 4-k
+#    $$$ num s =1 k=3
+#     $$ num s = 2 k=2   size -k
+#      $ num s =3  k=1 4-k
 #
 # Write Code Below #
-for k in range(4,-4,-1):
-    print('%' * k)
+symbol = input('a symbol ')
+size = int(input('the size '))
+for k in range(size,0,-1):
+    num_space = size - k
+    print(' ' * num_space + symbol * k)
 # 2 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
 #   a. Create the following pattern using a for loop, and the symbol and size provided by the user.
@@ -44,11 +47,11 @@ for k in range(4,-4,-1):
 #
 #
 # Write Code Below #
-for m in range(5,-5,-1):
-    print('!' * m )
+for m in range(5,0,-1):
+    print( symbol * m )
 
-for z in range(-5, 5):
-    print('!' * z)
+for z in range(2, 6):
+    print( symbol * z)
 # 3 - for Loop | Patterns
 #   a. Prompt input from the user in the form of a symbol. Save to a variable named s.
 #   a. Create the following pattern using a for loop, and the symbol and size provided by the user.
@@ -69,7 +72,8 @@ for z in range(-5, 5):
 #
 #
 # Write Code Below #
-for m in range(-6,6,):
+symbol = input('a symbol ')
+for m in range(0,6,):
     print('+' * m )
 for z in range(5, -5, -1):
     print('+' * z)
@@ -93,6 +97,12 @@ print(
 #   >> 55
 #
 # Write Code Below #
+n = int(input('a number  : '))
+result = n
+for g in range(n-1,0,-1):
+    result = result + g
+    print(g)
+    print( result)
 
 
 # 1 - for Loop | n!
@@ -110,3 +120,9 @@ print(
 #   >> 55
 #
 # Write Code Below #
+n = int(input('a number  : '))
+result = n
+for g in range(n-1,0,-1):
+    result = result * g
+    print(g)
+    print( result)
